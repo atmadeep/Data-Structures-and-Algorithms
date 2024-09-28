@@ -46,3 +46,9 @@ This folder contains solutions to various array-related problems. Below is a des
 **Problem:** Given a sorted array of integers and a target sum, find two numbers such that they add up to the target sum and return their indices (1-based).
 
 **Solution:** The script uses a two-pointer technique to find the two numbers that add up to the target sum, returning their indices in a 1-based format.
+
+## 🔢 longest_valid_subsequence.cc
+
+**Problem:** Given an unsorted array of integers, find the length of the longest subsequence such that elements in the subsequence are consecutive integers. The consecutive numbers can be in any order.
+
+**Solution:** The script uses a set data structure to efficiently check for the presence of elements. It iterates through each element, checks if it's the start of a sequence, and then counts consecutive elements. The algorithm keeps track of the maximum length of consecutive elements found and returns it as the result.
