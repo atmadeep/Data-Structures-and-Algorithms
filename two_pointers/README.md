@@ -11,6 +11,12 @@ File: `valid_palindrome.cc`
 
 Problem: Determine if a given string is a valid palindrome, considering only alphanumeric characters and ignoring cases.
 
+### 2. 🔄 Two Sum II
+
+File: `two_sum_II.cc`
+
+Problem: Given a sorted array of integers, find two numbers such that they add up to a specific target number. Return the indices of the two numbers in sorted order.
+
 Approach:
 - 🧹 Remove non-alphanumeric characters and convert to lowercase.
 - 👉👈 Use two pointers, one starting from the beginning and one from the end.
