@@ -14,4 +14,7 @@
 - ⏱️ O(1) Time Complexity for Queries
 - 🔍 Range Queries
 
+## maximum average subarray
+ - Use sliding window approach to compute the maximum average subarray
+
 <span style="color: #059669;">Pro Tip:</span> Prefix sums are incredibly useful for solving various range-based problems efficiently! 🌈
