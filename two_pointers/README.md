@@ -74,3 +74,19 @@ Approach:
 
 ⏱️ Time Complexity: O(n), where n is the length of the array.
 💾 Space Complexity: O(1), as we're using two pointers.
+
+### 4. Three sum
+Problem : Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] where nums[i] + nums[j] + nums[k] == 0, and the indices i, j and k are all distinct.
+
+The output should not contain any duplicate triplets. You may return the output and the triplets in any order.
+
+Approach:
+- Sort the array.
+- Start iterating from the first index.
+- Keep a left and right index from at (i+1) and (n-1) respectively.
+- If the sum of nums[i], nums[left], and nums[right] is less than 0, move the left pointer to the right.
+- If the sum is greater than 0, move the right pointer to the left.
+- If the sum is equal to 0, add the triplet to the result list and move both pointers inward.
+- Edge case handling: Skip if the first element is greater than 0. Ignore if the current element is same as previous element.
+
+
