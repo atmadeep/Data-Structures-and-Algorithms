@@ -89,4 +89,12 @@ Approach:
 - If the sum is equal to 0, add the triplet to the result list and move both pointers inward.
 - Edge case handling: Skip if the first element is greater than 0. Ignore if the current element is same as previous element.
 
+### 5. Trapping rain water:
+Problem: Given an input array of heights, determine the total water that can be trapped from falling rain.
+
+Approach:
+- Use two pointers, left  and right.
+- Keep track of the maximum height on left and right.
+- total water that can be stored at a place is min(leftmax, rightmax) - current_height.
+
 
